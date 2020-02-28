@@ -48,12 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         myNoteSharedPref = getSharedPreferences("MyNote", MODE_PRIVATE);
 
-        mBtnSaveNote.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-            }
-        });
     }
 }
 
